@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import CoreData
 
 class goalCell: UITableViewCell {
     
@@ -16,22 +17,10 @@ class goalCell: UITableViewCell {
     @IBOutlet weak var goalProgressLabel: UILabel!
     
     
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
-    }
-
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
-    }
-    
-    
-    func configureCell(description: String, type: String, goalProgressAmount: Int) {
+    func configureCell(description: String, type: GoalType, goalProgressAmount: Int) {
         
         self.goalDescriptionLabel.text = description
-        self.goalTypeLabel.text = type
+        self.goalTypeLabel.text = type.rawValue
         self.goalProgressLabel.text = String(describing: goalProgressAmount)
         
     }
