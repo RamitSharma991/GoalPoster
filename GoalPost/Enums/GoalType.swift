@@ -15,5 +15,3 @@ enum GoalType: String {
     
     
 }
-
-
