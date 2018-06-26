@@ -19,6 +19,7 @@
 		313A4854208F137000232461 /* goalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313A4853208F137000232461 /* goalCell.swift */; };
 		31F5C74A20E1FB9000115F9F /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F5C74920E1FB9000115F9F /* UIViewExt.swift */; };
 		31F5C74C20E2012600115F9F /* UIButtonExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F5C74B20E2012600115F9F /* UIButtonExt.swift */; };
+		31F5C74E20E22A0300115F9F /* FinishGoalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F5C74D20E22A0300115F9F /* FinishGoalVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		313A4853208F137000232461 /* goalCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = goalCell.swift; path = GoalPost/View/goalCell.swift; sourceTree = SOURCE_ROOT; };
 		31F5C74920E1FB9000115F9F /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
 		31F5C74B20E2012600115F9F /* UIButtonExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExt.swift; sourceTree = "<group>"; };
+		31F5C74D20E22A0300115F9F /* FinishGoalVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishGoalVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 			children = (
 				313A483C208EE5AA00232461 /* GoalsVC.swift */,
 				3133FFAE209AEDE6006777B0 /* createGoalsVC.swift */,
+				31F5C74D20E22A0300115F9F /* FinishGoalVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -196,6 +199,7 @@
 				313A483B208EE5AA00232461 /* AppDelegate.swift in Sources */,
 				3133FFB1209AFEBC006777B0 /* UIViewControllerExt..swift in Sources */,
 				31F5C74C20E2012600115F9F /* UIButtonExt.swift in Sources */,
+				31F5C74E20E22A0300115F9F /* FinishGoalVC.swift in Sources */,
 				313A4843208EE5AA00232461 /* GoalPost.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
