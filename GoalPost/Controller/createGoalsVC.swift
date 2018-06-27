@@ -33,10 +33,11 @@ class createGoalsVC: UIViewController, UITextViewDelegate {
             
             guard let finishGoalVC = storyboard?.instantiateViewController(withIdentifier: "FinishGoalVC") as? FinishGoalVC else {return}
             finishGoalVC.initData(description: goalTextView.text!, type: goalType)
-            
-            presentDetail(finishGoalVC)
+            presentingViewController?.presentSecondaryDetail(finishGoalVC)
         }
     }
+    
+    
     @IBAction func shortTerm(_ sender: Any) {
          goalType = .shortTerm
         shortTermButton.setDeselectedColor()
