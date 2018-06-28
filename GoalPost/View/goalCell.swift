@@ -23,16 +23,15 @@ class goalCell: UITableViewCell {
         self.goalDescriptionLabel.text = goal.goalDescription
         self.goalTypeLabel.text = goal.goalType
         self.goalProgressLabel.text = String(goal.goalProgress)
+     
         
         if goal.goalProgress == goal.goalCompletionValue {
-            
             self.completionView.isHidden = false
-        }
-        
-        else {
+        } else {
             self.completionView.isHidden = true
         }
-        
     }
+    
+
 
 }
